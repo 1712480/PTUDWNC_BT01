@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+.count {
+    margin: auto 5px;
+}
+
+.history-button {
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    margin: 5px 0 5px;
+    border: none;
+    background-color: #dddddd;
+    transition: 0.3s ease;
+}
+
+.history-button:hover, .history-button:active, .history-button:focus {
+    background-color: darkgray;
+    outline: none;
+}
